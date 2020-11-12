@@ -1,7 +1,7 @@
 ## Pandora's Box
 
 ##Links:
-[https://trello.com/b/74nEZBrm/game-development-assignment-1]
+[Link](https://trello.com/b/74nEZBrm/game-development-assignment-1)
 
 ### Markdown
 
