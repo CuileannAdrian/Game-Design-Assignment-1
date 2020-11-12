@@ -1,8 +1,7 @@
-## Welcome to (Name In Progress)
+## Pandora's Box
 
-You can use the [editor on GitHub](https://github.com/CuileannAdrian/Game-Design-Assignment-1/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+##Links:
+[https://trello.com/b/74nEZBrm/game-development-assignment-1]
 
 ### Markdown
 
