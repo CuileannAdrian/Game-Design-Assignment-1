@@ -25,23 +25,46 @@
   }
   
   .Navagation {
-    width:300px;
-    height:200px;
-    position: relative;
-		padding: 0;
-		margin: 0;
+	  width:300px;
+	  height:200px;
+	  position: relative;
+	  padding: 0;
+	  margin: 0;
+	  text-align: center;
+  }
+  
+  .navBox-image {
+   		cursor:pointer;
+		position: relative;
+		display: block;
+	}
+	navBox-text {
+		position: absolute;
+		top: 0; right: 0;
+		bottom: 0; left: 0;
+		width: 300px;
+		height: 200px; 
 		text-align: center;
-  }
+		background-color: rgba(0,0,0,0.8);
+		opacity: 0;
+		-webkit-transition: opacity 0.6s;
+		-moz-transition: opacity 0.6s;
+		transition: opacity 0.6s;
+		vertical-align:middle;
+		line-height:200px;
+	}
+	
+	navBox-text:hover{
+	    opacity: 1;      
+	}
   
-  .navBox {
-   
-  }
-  
+	
    h2 {
-   color: #FFFFFF;
-    font-family: verdana;
-    font-size: 100%;
-    text-aligh: center;
+	   font-family: verdana;
+	   color: white;
+	   display: inline-table;
+	   vertical-align:middle;
+	   line-height:100%; 
   }
   
 </style>
@@ -54,11 +77,12 @@
       <h1>Hope's Abyss</h1>
       
       <div class = "Navagation">
-        <div class = "navBox">
+        <div class = "navBox-image">
           <img scr ="https://raw.githubusercontent.com/CuileannAdrian/Hopes-Abyss/main/teddy-bear-icon.jpg" width ="300px" height ="200px" />
-                                                                     
-          <h2>Pitch</h2>
-        </div>
+		<div class = "navBox-text">
+			<h2>Pitch</h2>
+		</div>
+	      </div>
         
         <div class = "navBox">
           <img scr ="https://raw.githubusercontent.com/CuileannAdrian/Hopes-Abyss/main/teddy-bear-icon.jpg" width ="300px" height ="200px" />
