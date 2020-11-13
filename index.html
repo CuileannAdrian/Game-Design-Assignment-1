@@ -1,16 +1,9 @@
 <html>
 <head>
 <style>
-  body {
-    background-color: black;
-  }
-  
-  h1 {
-    text-align:center;
-    font-family: verdana;
-    font-size: 300%;
-    color: white;
-  }
+	body {
+		background-color: black;
+	}
   
   .container {
 	  background-image: url("https://raw.githubusercontent.com/CuileannAdrian/Hopes-Abyss/main/background%20image.jpg");
@@ -24,17 +17,33 @@
 	  height: 100%;
 	  width: 100%;
   }
+	
+	h1 {
+		text-align:center;
+		font-family: verdana;
+		font-size: 300%;
+		color: white;
+	}
+	
+	h2 { 
+		text-align:center;
+		font-family: verdana;
+		font-size: 200%;
+		color: white;
+	}
   
-  .Navagation {
+	.Navagation {
 	  width:300px;
 	  height:200px;
 	  position: relative;
 	  padding: 0;
 	  margin: 0;
 	  text-align: center;
-  }
+	}
   
-	.navBox-image {
+	
+	.image
+	{
 		opacity: 1;
 		display: block;
 		width: 100%;
@@ -43,20 +52,25 @@
 		backface-visibility: hidden;
 	}
 	
-	navBox-text {
-		
+	.navBox-image: hover .image {
+		opacity: 0.3;
 	}
 	
-	navBox-text:hover{   
+	.navBox-text {
+		transition: .5s ease;
+		opacity: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%)
+	}
+	
+	.navBox-text:hover{   
 		opacity: 1;
 	}
    
-	h2 { 
-		background-color: #4CAF50;
-		color: white;
-		font-size: 16px;
-		padding: 16px 32px;
-	}
+	
   
 </style>
   
