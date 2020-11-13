@@ -34,41 +34,29 @@
 	  text-align: center;
   }
   
-  .navBox-image {
-	  background-image: url("https://raw.githubusercontent.com/CuileannAdrian/Hopes-Abyss/main/teddy-bear-icon.jpg");
-	  cursor:pointer;
-	  position: relative;
-	  display: block;
-	  width ="300px"; 
-	  height ="200px";
+	.navBox-image {
+		opacity: 1;
+		display: block;
+		width: 100%;
+		height: auto;
+		transition: .5s ease;
+		backface-visibility: hidden;
 	}
 	
 	navBox-text {
-		position: absolute;
-		top: 0; right: 0;
-		bottom: 0; left: 0;
-		width: 300px;
-		height: 200px; 
-		text-align: center;
-		background-color: rgba(255,255,255,0.8);
-		opacity: 0;
-		transition: opacity 0.6s;
-		vertical-align:middle;
-		line-height:200px;
+		
 	}
 	
-	navBox-text:hover{
-	    opacity: 1;      
+	navBox-text:hover{   
+		opacity: 1;
 	}
-  
-	
-   h2 {
-	   font-family: verdana;
-	   color: white;
-	   display: inline-table;
-	   vertical-align:middle;
-	   line-height:100%; 
-  }
+   
+	h2 { 
+		background-color: #4CAF50;
+		color: white;
+		font-size: 16px;
+		padding: 16px 32px;
+	}
   
 </style>
   
@@ -81,9 +69,9 @@
       
       <div class = "Navagation">
         <div class = "navBox-image">
-		<div class = "navBox-text">
-			<h2>Pitch</h2>
-		</div>
+		<img url ="https://raw.githubusercontent.com/CuileannAdrian/Hopes-Abyss/main/teddy-bear-icon.jpg" alt="TeddyBear" class="image" style="width:100%">
+		
+		<div class = "navBox-text"><h2>Pitch</h2></div>
 	      </div>
         
         <div class = "navBox">
