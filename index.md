@@ -1,8 +1,8 @@
-## Pandora's Box
+## Hope's Journey
 
 ##Links:
 [Link](https://trello.com/b/74nEZBrm/game-development-assignment-1)
-
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
