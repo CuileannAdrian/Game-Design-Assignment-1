@@ -1,0 +1,79 @@
+body{
+    background-image:url(background%20image.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    
+    font-family: cursive;
+    color: white;
+    margin: auto;
+}
+
+#Title {
+    float: left;
+    text-align: center;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 5%;
+    display: block;
+}
+
+#container {
+    margin-top: 5%;
+    display: block;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+
+.mainContent{
+    margin-left: 8%;
+    float: left;
+    width: 40%;
+    height: 95%;
+    background-color: rgba(27,1,97,0.5);
+    border: 8px white double;
+}
+
+#nav {
+    width: 10%;
+    height: 100%;
+    position: fixed;
+    text-align: center;
+}
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+ .Box {
+     position: relative;
+     text-align: center;
+     height: 10%;
+     width: 80%;
+}
+    .Box:hover .image {
+    opacity: 0.3;
+    }
+
+    .Box:hover .middle {
+    opacity: 1;
+    }
